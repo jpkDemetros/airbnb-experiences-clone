@@ -4,7 +4,7 @@ import pin from "../images/travel-location.png";
 export default function Entry(props) {
     return (
         <div className="entry">
-            <img src={props.imageUrl} className="entry--img"/>
+            <img src={props.imageUrl} alt=""className="entry--img"/>
             <div className="entry--info">
                 <img src={pin} className="entry--logo"/>
                 <p className="entry--location">{props.location}</p>
